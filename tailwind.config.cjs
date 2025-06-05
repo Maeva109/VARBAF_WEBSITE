@@ -20,8 +20,14 @@ module.exports = {
         "box-bg": "rgb(var(--color-box))",
         "box-shadow": "rgb(var(--box-sd))",
         "box-border": "rgb(var(--box-border))",
-        primary: "#00D8A5",
-        secondary: "#7E43AD",
+        primary: {
+          DEFAULT: '#570cac',
+          dark: '#450a8a'
+        },
+        secondary: {
+          DEFAULT: '#8cd66a',
+          dark: '#6cb34a'
+        },
         "body-color": "#462C64",
         "gray-color": "",
       },

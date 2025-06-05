@@ -79,22 +79,19 @@
                 </div>
                 <div class="lg:h-full  hidden md:flex">
 
+                    <!-- Problème potentiel de cercle blanc -->
+                    <!--
                     <div
-                        class="flex w-full h-96 min-h-[24rem] lg:min-h-[none] lg:w-full lg:h-full items-center relative">
-                        <div
-                            class="absolute z-0 top-1/2  -translate-y-1/2 w-5/6 right-0 h-[calc(80%+20px)] bg-gradient-to-tr opacity-25 from-primary to-pink-300 dark:from-[#570cac] dark:to-primary blur-2xl">
-                        </div>
-                        <div
-                            class="absolute w-3/5 h-full z-10 p-1 -translate-y-1/2 top-1/2 right-3 rounded-3xl bg-white dark:bg-body shadow-lg shadow-box-shadow border border-box-border">
-                            <img src="/images/sidebiew.webp" alt="In studio" width="500" height="auto" loading="lazy"
-                                class="w-full h-full rounded-2xl object-cover">
-                        </div>
-                        <div
-                            class="absolute  -translate-y-1/2 top-1/2 h-[calc(80%-2rem)] w-[calc(40%-20px)] p-1 rounded-3xl bg-white dark:bg-body shadow-lg shadow-box-shadow border border-box-border ">
-                            <img src="/images/sidebiew.webp" alt="Happy in studio" width="200" height="auto"
-                                loading="lazy" class="w-full h-full rounded-2xl object-cover">
-                        </div>
+                        class="absolute w-3/5 h-full z-10 p-1 -translate-y-1/2 top-1/2 right-3 rounded-3xl bg-white dark:bg-body shadow-lg shadow-box-shadow border border-box-border">
+                        <img src="/images/sidebiew.webp" alt="In studio" width="500" height="auto" loading="lazy"
+                            class="w-full h-full rounded-2xl object-cover">
                     </div>
+                    <div
+                        class="absolute  -translate-y-1/2 top-1/2 h-[calc(80%-2rem)] w-[calc(40%-20px)] p-1 rounded-3xl bg-white dark:bg-body shadow-lg shadow-box-shadow border border-box-border ">
+                        <img src="/images/sidebiew.webp" alt="Happy in studio" width="200" height="auto"
+                            loading="lazy" class="w-full h-full rounded-2xl object-cover">
+                    </div>
+                    -->
                 </div>
             </div>
         </AtomsContainer>
